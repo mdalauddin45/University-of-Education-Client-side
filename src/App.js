@@ -4,7 +4,7 @@ import Spinner from "./Components/Spinner/Spinner";
 import { router } from "./Routes/routes";
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   setTimeout(() => {
     setLoading(false);
   }, 7000);
