@@ -7,7 +7,7 @@ const Main = () => {
     return (
         <div>
             <Drawer />
-            <Outlet />
+            {/* <Outlet /> */}
             <Footer />
         </div>
     );

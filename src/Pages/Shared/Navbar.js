@@ -15,8 +15,8 @@ const Navbar = () => {
                 </div>
 
             </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-2">
+            <div className="navbar-center hidden lg:flex">
+                <ul className="menu menu-horizontal px-2">
                     <li>
                         <Link className={desgin}>
                             Home
@@ -68,7 +68,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 <ul className="menu menu-horizontal px-1 hidden lg:flex">
-                    <Link className='text-white'>
+                    <Link to='/login' className='text-white'>
                         <button className="btn btn-outline btn-info text-white">Strudent Login</button>
 
                     </Link>
